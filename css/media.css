@@ -1,0 +1,858 @@
+/* ======== Медиа запрос ========*/
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+[class*="col-"] {
+    width: 100%;
+  }
+   
+  .blok-news {
+    margin-left: 0px;
+  }
+
+  .lets-get-acquainted {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lets-get-acquainted h1{
+    font-family: "RobotoBold";
+    margin-top: 100px;
+    font-size: 26px;
+    color: #fff;
+    z-index: 3; 
+
+  }
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 20px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 3;
+}
+
+.lets-get-acquainted a{
+  color: #fff;
+  z-index: 3; 
+}
+
+.the-blog h2 {
+  color: #000;
+  font-family: "MansalvaRegular";
+
+}
+
+.the-blog p {
+  font-family: "RalewayRegular";
+  margin-top: -2px;
+  font-size: 16px;
+  color: #000;
+  line-height: 19px;
+  opacity: 0.8;
+}
+
+.title-our-services {
+  margin-top: 10px;
+}
+
+.title-our-services h4, .section-contacts-title h4{
+  font-family: "RobotoBold";
+  font-size: 30px;
+  color: #000;
+  opacity: 0.4;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  overflow-x: hidden; 
+
+}
+
+.title-line, .section-contacts-title-line{
+  margin-top: -23px;
+}
+
+#line, #line-2{
+  width: 300px;
+} 
+
+#line2, #line-4{
+  width: 100px;
+}
+
+.lets-get-acquainted img {
+  width: 100%;
+}
+
+.section-gallery-title{
+  padding-top: 60px;
+
+}
+
+.section-gallery{
+  margin-top:  70px;
+
+}
+
+.section-about-me-image img {
+  margin-left: 60px;
+  width: 50%;
+  height: auto;
+} 
+
+.section-about-me-container {
+     display: flex;
+     flex-direction: column-reverse;
+}
+
+.section-contacts-title{
+     margin-top: 40px;
+}
+
+.section-about-me-text p {
+  font-family: "RalewayRegular";
+  font-size: 17px;
+  color: #000;
+  line-height: 22px;
+  width: 89%;
+  opacity: 0.8;
+}
+
+.section-about-me-text a {
+  text-decoration: none;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 35%;
+  cursor: pointer;
+}
+
+.section-about-me{
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.section-about-me-image{
+  background-image: url(../image/photographer-2.png);
+  height: 460px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-top: -130px;
+}
+
+/*Form-contastc */
+.form-contacts{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  background-color: #000;
+  height: 400px;
+  margin-top: 80px;
+}
+.form-contact-information{
+  background-color: #008CBA;
+  height: 400px;
+}
+
+.form-contact-to-send{
+  background-color: #008CBA;
+  height: 400px;
+  margin-top: 10px;
+}
+
+
+.section-news{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin-top: -20px;
+}
+
+.section-contacts-title{
+     margin-top: 140px;
+}
+
+ /*Form-contastc */
+
+.section-gallery-title{
+     margin-top: 480px;
+}
+
+.section-about-me-image{
+  background-image: url(../image/photographer-2.png);
+  min-height: 460px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 300px;
+}
+
+.menu__links {
+  display: none;
+}
+
+.navbar{
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-burger-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+   margin-left: 665px;
+   background-color: #000;
+   width: 40px;
+   height: 40px;
+}
+
+.navbar-burger{
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.navbar-burger{
+  display: block;
+}
+
+header{
+  position: relative;
+}
+
+nav{
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+}
+
+.menu__links{
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+  padding-bottom: 40px;
+}
+.menu__links li{
+  border-bottom:1px solid  red;
+  padding-bottom: 14px;
+  z-index: 4;
+
+}
+
+.menu__links a{
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.logo{
+  z-index: 4;
+  margin-top: 33px;
+  margin-left: 7px;
+  font-size: 17px; 
+}
+
+.lets-get-acquainted {
+  display: flex;
+  flex-direction: column;
+}
+
+.lets-get-acquainted h1{
+  font-family: "RobotoBold";
+  margin-top: 258px;
+  color: #fff;
+  z-index: 0; 
+}
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 24px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 0;
+}
+
+.lets-get-acquainted a{
+  color: #fff;
+  z-index: 3; 
+}
+
+.section-comments{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  margin-top: 70px;
+}
+
+.section-comments__1{
+  display: flex;
+ // margin-left: -1px;
+  margin-top: 20px;
+  flex-direction: column;
+  z-index: 0;
+}
+
+.section-comments__2{
+  display: flex;
+  margin-left: -1px;
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+.section-comments-image{
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+  z-index: 0;
+}
+
+.section-comments-visitor{
+  margin: auto;
+  margin-top: -1px;
+  background-color: #008CBA;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.section-comments-image img{
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
+ border: 1px solid;
+ margin-bottom: 10px;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  .section-news {
+  margin-left: 0px;
+}
+
+}
+ 
+@media only screen and (max-width: 600px) {
+
+  [class*="col-"] {
+     width: 100%;
+  }
+
+  .blok-news {
+    margin-left: 0px;
+  }
+
+  .lets-get-acquainted {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lets-get-acquainted h1{
+    font-family: "RobotoBold";
+    margin-top: 100px;
+    font-size: 26px;
+    color: #fff;
+    z-index: 3; 
+
+  }
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 20px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 3;
+}
+
+.lets-get-acquainted a{
+  color: #fff;
+  z-index: 3; 
+}
+
+.the-blog h2 {
+  color: #000;
+  font-family: "MansalvaRegular";
+
+}
+
+.the-blog p {
+  font-family: "RalewayRegular";
+  margin-top: -2px;
+  font-size: 16px;
+  color: #000;
+  line-height: 19px;
+  opacity: 0.8;
+}
+
+.title-our-services {
+  margin-top: 10px;
+}
+
+.title-our-services h4, .section-contacts-title h4{
+  font-family: "RobotoBold";
+  font-size: 30px;
+  color: #000;
+  opacity: 0.4;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  overflow-x: hidden; 
+
+}
+
+.title-line, .section-contacts-title-line{
+  margin-top: -23px;
+}
+
+#line, #line-2{
+  width: 300px;
+} 
+
+#line2, #line-4{
+  width: 100px;
+}
+
+.lets-get-acquainted img {
+  width: 100%;
+}
+
+.section-about-me-image img {
+  margin-left: 60px;
+  width: 50%;
+  height: auto;
+} 
+
+.section-about-me-container {
+     display: flex;
+     flex-direction: column-reverse;
+}
+
+.section-contacts-title{
+     margin-top: 40px;
+}
+
+.section-about-me-text p {
+  font-family: "RalewayRegular";
+  font-size: 17px;
+  color: #000;
+  line-height: 22px;
+  width: 89%;
+  opacity: 0.8;
+}
+
+.section-about-me-text a {
+  text-decoration: none;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 35%;
+  cursor: pointer;
+}
+
+.section-about-me{
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-top: 40px;
+}
+
+/*Form-contastc */
+.form-contacts{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  background-color: #000;
+  height: 400px;
+  margin-bottom: 40px;
+}
+.form-contact-information{
+  background-color: #008CBA;
+  height: 400px;
+}
+
+.form-contact-to-send{
+  background-color: #008CBA;
+  height: 400px;
+  margin-top: 10px;
+}
+
+
+.section-news{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin-top: 30px;
+}
+
+.section-contacts-title{
+     margin-top: 140px;
+}
+
+ /*Form-contastc */
+
+.section-gallery-title{
+     margin-top: 480px;
+}
+
+.section-about-me-image{
+  background-image: url(../image/photographer-2.png);
+  min-height: 460px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 300px;
+}
+
+.header {
+  background: url('../image/landscape.png')  no-repeat center;
+  height: 70vh;
+  background-size: cover;
+  position: relative;
+}
+ .menu__links {
+  display: none;
+}
+
+.navbar{
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-burger-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+   margin-left: 412px;
+   background-color: #000;
+   width: 40px;
+   height: 40px;
+}
+
+.navbar-burger{
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.navbar-burger{
+  display: block;
+}
+
+header{
+  position: relative;
+}
+
+nav{
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+}
+
+.menu__links{
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+  padding-bottom: 40px;
+  z-index: 1;
+}
+.menu__links li{
+  border-bottom:1px solid  red;
+  padding-bottom: 14px;
+  z-index: 1;
+
+}
+
+.menu__links a{
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.logo{
+  z-index: 4;
+  margin-top: 33px;
+  margin-left: 7px;
+  font-size: 17px; 
+}
+
+.lets-get-acquainted {
+  display: flex;
+  flex-direction: column;
+}
+
+.lets-get-acquainted h1{
+  font-family: "RobotoBold";
+  margin-top: 148px;
+  color: #fff;
+  z-index: 0; 
+}
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 18px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 0;
+}
+
+.lets-get-acquainted a{
+  color: #fff;
+  z-index: 3; 
+}
+
+.section-comments{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 100px;
+ // margin-top: 70px;
+}
+
+.section-comments__1{
+  display: flex;
+  margin-left: -1px;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.section-comments__2{
+  display: flex;
+  margin-left: -1px;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.section-comments-image{
+  display: flex;
+  justify-content: center;
+  //margin-top: -40px;
+}
+
+.section-comments-visitor{
+  margin: auto;
+  margin-left: 25px;
+  margin-top: -1px;
+  background-color: #008CBA;
+  color: #fff;
+  //padding-bottom: 40px;
+}
+
+.section-comments-image img{
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
+ border: 1px solid;
+//padding-top: 20px;
+// margin-bottom: 10px;
+}
+
+}
+
+@media only screen and (max-width: 414px) {
+  .navbar-burger-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+   margin-left: 338px;
+   background-color: #000;
+   width: 40px;
+   height: 40px;
+}
+
+.lets-get-acquainted h1{
+  font-family: "RobotoBold";
+  margin-top: 79px;
+  color: #fff;
+  z-index: 3; 
+}
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 13px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 3;
+}
+
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar-burger-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+   margin-left: 298px;
+   background-color: #000;
+   width: 40px;
+   height: 40px;
+}
+
+.lets-get-acquainted h1{
+  font-family: "RobotoBold";
+  margin-top: 79px;
+  color: #fff;
+  z-index: 1; 
+}
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 13px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 3;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+  .navbar-burger-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+   margin-left: 286px;
+   background-color: #000;
+   width: 40px;
+   height: 40px;
+}
+
+.lets-get-acquainted h1{
+  font-family: "RobotoBold";
+  margin-top: 79px;
+  color: #fff;
+  z-index: 3; 
+}
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 13px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 3;
+}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+  .navbar-burger-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+   margin-left: 246px;
+   background-color: #000;
+   width: 40px;
+   height: 40px;
+}
+
+.lets-get-acquainted h1{
+  font-family: "RobotoBold";
+  margin-top: 79px;
+  color: #fff;
+  z-index: 3; 
+}
+
+.lets-get-acquainted p{
+  margin-top: -2px;
+  font-size: 13px;
+  font-family: "MansalvaRegular";
+  color: #fff;
+  z-index: 3;
+}
+
+}
+
+
+ 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  
+} 
+
+/* ======== Медиа запрос ======= */
